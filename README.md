@@ -72,7 +72,7 @@ vector<string>toposort_pattern(vector<tuple<string , string , string>>&relation)
            
            topo_order.push_back(curr);
            
-           for(auto nbr : adj[curr]){
+           for(auto nbr : adj[curr]){ 
                
                indegree[nbr]--;
                
